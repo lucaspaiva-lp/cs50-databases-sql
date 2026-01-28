@@ -12,7 +12,7 @@ Once mapped to `season = 1`, the query became straightforward.
 
 ### [02 — Cyberchase](/01-querying/exercises/02-cyberchase.sql)
 
-The difficulty here was understanding **what the output was supposed to represent** , not the SQL syntax itself.
+The difficulty here was understanding **what the output was supposed to represent**, not the SQL syntax itself.
 
 I initially focused on how the table was structured instead of reading the question literally and mapping it directly to the required columns.
 
@@ -22,7 +22,7 @@ After aligning the query with the exact wording, the solution became clear.
 
 ### [03 — Cyberchase](/01-querying/exercises/03-cyberchase.sql)
 
-My main issue was returning **more results than expected** .
+My main issue was returning **more results than expected**.
 
 I misunderstood how restrictive the conditions needed to be and ended up including extra rows that were logically valid but outside the problem’s scope.
 
@@ -34,7 +34,7 @@ Re-reading the problem carefully helped me realize that the query needed to be m
 
 The difficulty was interpreting the question precisely and avoiding assumptions.
 
-I initially matched multiple valid rows, but the problem expected a **very specific subset** .
+I initially matched multiple valid rows, but the problem expected a **very specific subset**.
 
 This reinforced the importance of reading English problem statements literally instead of inferring extra conditions.
 
@@ -52,7 +52,7 @@ The main challenge was confidence, not logic.
 
 ### [06 — Cyberchase](/01-querying/exercises/06-cyberchase.sql)
 
-The challenge here was understanding **how aggregation affects results** .
+The challenge here was understanding **how aggregation affects results**.
 
 I needed to focus on what was being counted and ensure the aggregation matched the question’s intent.
 
@@ -84,7 +84,7 @@ Sticking strictly to the question avoided that.
 
 My result was close but incorrect.
 
-The issue was a **slight misinterpretation of the condition** , which caused an incorrect count.
+The issue was a **slight misinterpretation of the condition**, which caused an incorrect count.
 
 This highlighted how small wording differences in English (“before”, “after”, “during”) can significantly change the result.
 
@@ -104,7 +104,7 @@ Once structured properly, it behaved as expected.
 
 The difficulty here was understanding what “unique” referred to.
 
-Initially, I thought in terms of table structure and indexes, but the problem was actually about **distinct values in a specific column** .
+Initially, I thought in terms of table structure and indexes, but the problem was actually about **distinct values in a specific column**.
 
 Recognizing that shift was key.
 

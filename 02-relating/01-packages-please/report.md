@@ -21,12 +21,12 @@ Another important challenge was recognizing that the problem text contains an **
 - The correct address was identified directly from the `addresses` table.
 - The package was located using the corresponding `to_address_id`.
 - The `scans` table was analyzed to understand the sequence of events (`Pick` → `Drop`).
-- The **latest scan** , with action `Drop`, confirmed that the package reached its destination.
+- The **latest scan**, with action `Drop`, confirmed that the package reached its destination.
 - The address type was obtained from the related record in `addresses`.
 
 ### Key takeaways
 
-- The final state of a package should **never be inferred solely from `to_address_id`** .
+- The final state of a package should **never be inferred solely from `to_address_id`**.
 - The `scans` table is the only reliable source to determine where a package actually ended up.
 - Narrative details may contain intentional errors; the database is the authoritative source.
 
@@ -45,7 +45,7 @@ This section was the most challenging initially because it:
 The most important realization was understanding that:
 
 - “There’s no ‘From’ address” means the database field is **NULL**
-- The package must be identified using **absence of data combined with contents** , not addresses
+- The package must be identified using **absence of data combined with contents**, not addresses
 
 ### How the problem was solved
 
@@ -53,7 +53,7 @@ The most important realization was understanding that:
 - The `contents` field confirmed the semantic hint (“Duck debugger”).
 - The `scans` table was used to track the package’s movement.
 - The last `Drop` scan pointed to a different address than the intended destination.
-- The final address type was correctly identified as **Police Station** .
+- The final address type was correctly identified as **Police Station**.
 
 ### Key takeaways
 
@@ -70,7 +70,7 @@ The most important realization was understanding that:
 
 ### Main difficulties
 
-The main challenge in this section was interpreting the question **“Who has the Forgotten Gift?”** .
+The main challenge in this section was interpreting the question **“Who has the Forgotten Gift?”**.
 
 It was necessary to understand that this does not refer to:
 
@@ -92,14 +92,14 @@ Another critical point was realizing that:
 - The package was located by matching `from_address_id` and `to_address_id`.
 - The contents were obtained directly from `packages.contents`.
 - The `scans` table showed that the latest action was `Pick`.
-- Since no `Drop` followed, the package is currently **with the driver** .
+- Since no `Drop` followed, the package is currently **with the driver**.
 - The driver’s identity was confirmed using the `drivers` table.
 
 ### Key takeaways
 
-- “Who has” refers to **current possession** , not original intent.
+- “Who has” refers to **current possession**, not original intent.
 - Correct interpretation of the `action` field (`Pick` vs `Drop`) is essential.
-- The answer depends on the **most recent chronological scan** , not assumptions.
+- The answer depends on the **most recent chronological scan**, not assumptions.
 
 ---
 
@@ -112,4 +112,4 @@ Throughout the _Packages, Please_ problem, the main difficulties were not relate
 - understanding that **scans are the source of truth**
 - avoiding assumptions based on intention rather than recorded events
 
-By the end, the exercise successfully reinforced understanding of **table relationships** , **temporal event tracking** , and **precise schema interpretation** , fully achieving the goals of the _Relating_ phase of the course.
+By the end, the exercise successfully reinforced understanding of **table relationships**, **temporal event tracking**, and **precise schema interpretation**, fully achieving the goals of the _Relating_ phase of the course.

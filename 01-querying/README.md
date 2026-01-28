@@ -18,13 +18,13 @@ Learn how to retrieve data using basic SQL queries, with emphasis on **reading p
 
 - Read the question **before** looking at the table
 - Identify **which column the question is actually about**
-- Apply filters based on **problem wording** , not assumptions
+- Apply filters based on **problem wording**, not assumptions
 - Use `DISTINCT` only on the column whose values must be unique
 - Validate queries by checking row counts and output shape
 
 ## Common Pitfalls
 
-- Misinterpreting English terms like _original_ , _unique_ , _before_ , _after_
+- Misinterpreting English terms like _original_, _unique_, _before_, _after_
 - Applying `DISTINCT` to the wrong column
 - Reasoning about table structure instead of data semantics
 - Returning valid but **extra rows** outside the problem scope
