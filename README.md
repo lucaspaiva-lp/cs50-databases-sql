@@ -115,5 +115,5 @@ HarvardX (edX)** and are used here  **strictly for educational and non-commercia
 purposes** , in accordance with the course’s academic integrity and usage
 policies.
 
-This repository is intended as a  **personal study record and technical
-portfolio** , not as a redistribution of official course materials.
+This repository is intended as a **personal study record and technical** **portfolio**, not as a redistribution of official course materials.
+Solutions are published **after independent completion** of the exercises.
