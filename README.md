@@ -1,86 +1,107 @@
+
 # CS50 – Introduction to Databases with SQL
 
 This repository contains my personal solutions, notes, and experiments for
-**CS50's Introduction to Databases with SQL (HarvardX / edX)**.
+ **CS50's Introduction to Databases with SQL (HarvardX / edX)** .
 
-The structure follows the official weekly progression of the course.
+The structure follows the  **official weekly progression of the course** , aligned
+strictly with the problem sets as released by CS50.
 
 ---
 
-## Course Structure
+## Course Roadmap (Official Order)
 
-### [Module 1 — Querying](/01-querying/)
+### Week 0 — Foundations
 
-- `SELECT`
-- `WHERE`
-- `LIMIT`
-- Basic filtering and result ordering
+**Objective:** Build fluency in reading queries, basic filtering, and thinking in sets.
 
-[Click here to view the exercises](/01-querying/exercises)
+* Cyberchase
+* 36 Views or Normals
+* Players
 
-### [Module 2 — Relating](/02-relating/)
+---
 
-- `JOIN`s
-- Primary Keys
-- Foreign Keys
-- Table relationships
+### Week 1 — Querying & Aggregation
 
-[Click here to view the exercises](/02-relating/exercises)
+**Objective:** Apply filtering, grouping, joins, and real-world investigation logic.
 
-### [Module 3 — Designing](/03-designing/)
+* Packages, Please
+* DESE
+* Moneyball
 
-- Data modeling
-- Data types
-- Constraints
-- Normalization
+---
 
-[Click here to view the exercises](/03-designing/exercises)
+### Week 2 — Relating Data
 
-### [Module 4 — Writing](/04-writing/)
+**Objective:** Work with multi-table relationships and real datasets.
 
-- `INSERT`
-- `UPDATE`
-- `DELETE`
-- Transactions
+* ATL
+* Happy to Connect
+* Union Square Donuts
 
-[Click here to view the exercises](/04-writing/exercises)
+---
 
-### [Module 5 — Viewing](/05-viewing/)
+### Week 3 — Data Integrity & Cleaning
 
-- Views
-- Subqueries
-- Query composition
+**Objective:** Defensive querying and handling imperfect data.
 
-[Click here to view the exercises](/05-viewing/exercises)
+* Don’t Panic!
+* Meteorite Cleaning
 
-### [Module 6 — Optimizing](/06-optimizing/)
+---
 
-- Indexes
-- Query performance
-- Optimization strategies
+### Week 4 — Investigation & Analysis
 
-[Click here to view the exercises](/06-optimizing/exercises)
+**Objective:** Complex joins, investigative reasoning, and storytelling with SQL.
 
-### [Module 7 — Scaling](/07-scaling/)
+* Census Taker
+* The Private Eye
+* Bed and Breakfast
 
-- Database scaling concepts
-- Engine trade-offs
-- Limitations of SQLite
-- Portability and growth considerations
+---
 
-[Click here to view the exercises](/07-scaling/exercises)
+### Week 5 — Advanced Query Composition
+
+**Objective:** Views, abstractions, and reusable query logic.
+
+* In a Snap
+* your.harvard
+
+---
+
+### Week 6 — Sentimental SQL & Final Project
+
+**Objective:** Apply SQL concepts via another language and complete a capstone.
+
+* Don’t Panic! (Sentimental) — Python or Java
+* From the Deep
+* Happy to Connect (Sentimental)
+* FP Final Project
+* Final Project
+
+---
+
+## Repository Organization
+
+Each week or conceptual block is organized into directories following the
+progression above. SQL files contain only the queries required by each problem
+set, following CS50’s constraints.
+
+---
 
 ## Note on Databases (.db files)
 
-The database files (`.db`) used in the exercises are **not included** in this
+The database files (`<span>.db</span>`) used in the exercises are **not included** in this
 repository.
 
 These databases are provided by **CS50 / HarvardX** as part of the official
-course materials and are excluded here for **ethical and academic integrity
-reasons**.
+course materials and are excluded here for  **ethical and academic integrity
+reasons** .
 
 All SQL queries in this repository were written and tested against the official
 course databases within the authorized learning environment.
+
+---
 
 ## License and Disclaimer
 
@@ -90,9 +111,9 @@ course exercises.
 
 However, the **course content, problem statements, datasets, and instructional
 materials** are the intellectual property of **CS50 / Harvard University /
-HarvardX (edX)** and are used here **strictly for educational and non-commercial
-purposes**, in accordance with the course’s academic integrity and usage
+HarvardX (edX)** and are used here  **strictly for educational and non-commercial
+purposes** , in accordance with the course’s academic integrity and usage
 policies.
 
-This repository is intended as a **personal study record and technical
-portfolio**, not as a redistribution of official course materials.
+This repository is intended as a  **personal study record and technical
+portfolio** , not as a redistribution of official course materials.
