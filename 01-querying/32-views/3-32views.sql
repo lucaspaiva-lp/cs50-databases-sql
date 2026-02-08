@@ -5,4 +5,6 @@
 -- [ Priorite: Count, Hakusai, name "Fuji", column "English_title"]
 
 
-select count(*) from views where english_title like '%Fuji%' and artist = 'Hokusai';
+SELECT count(*) 
+FROM views 
+WHERE english_title like '%Fuji%' AND artist = 'Hokusai';

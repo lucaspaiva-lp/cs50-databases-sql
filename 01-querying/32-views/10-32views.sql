@@ -1,4 +1,8 @@
-sqlite> select english_title AS "10 Best Hokusai Prints" from views where artist = "Hokusai" order by entropy DESC limit 10;
+SELECT english_title AS "10 Best Hokusai Prints" 
+FROM views 
+WHERE artist = "Hokusai" 
+ORDER BY entropy DESC 
+LIMIT 10;
 +-----------------------------------------------------------------------------------+
 |                              10 Best Hokusai Prints                               |
 +-----------------------------------------------------------------------------------+

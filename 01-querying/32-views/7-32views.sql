@@ -3,8 +3,8 @@
 
 ---> Keywords: english_titles, Artist = Hiroshige
 
-select english_title
-from views
-where artist = "Hiroshige"
-order by brightness
-DESC LIMIT 5;
+SELECT english_title
+FROM views
+WHERE artist = "Hiroshige"
+ORDER BY brightness DESC 
+LIMIT 5;
