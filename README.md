@@ -2,9 +2,9 @@
 # CS50 – Introduction to Databases with SQL
 
 This repository contains my personal solutions, notes, and experiments for
- **CS50's Introduction to Databases with SQL (HarvardX / edX)** .
+ **CS50's Introduction to Databases with SQL (HarvardX / edX)**.
 
-The structure follows the  **official weekly progression of the course** , aligned
+The structure follows the  **official weekly progression of the course**, aligned
 strictly with the problem sets as released by CS50.
 
 ---
@@ -96,7 +96,7 @@ repository.
 
 These databases are provided by **CS50 / HarvardX** as part of the official
 course materials and are excluded here for  **ethical and academic integrity
-reasons** .
+reasons**.
 
 All SQL queries in this repository were written and tested against the official
 course databases within the authorized learning environment.
@@ -112,7 +112,7 @@ course exercises.
 However, the **course content, problem statements, datasets, and instructional
 materials** are the intellectual property of **CS50 / Harvard University /
 HarvardX (edX)** and are used here  **strictly for educational and non-commercial
-purposes** , in accordance with the course’s academic integrity and usage
+purposes**, in accordance with the course’s academic integrity and usage
 policies.
 
 This repository is intended as a **personal study record and technical** **portfolio**, not as a redistribution of official course materials.
