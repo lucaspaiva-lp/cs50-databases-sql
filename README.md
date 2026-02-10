@@ -1,4 +1,3 @@
-
 # CS50 – Introduction to Databases with SQL
 
 This repository contains my personal solutions, notes, and experiments for
@@ -91,7 +90,7 @@ set, following CS50’s constraints.
 
 ## Note on Databases (.db files)
 
-The database files (`<span>.db</span>`) used in the exercises are **not included** in this
+The database files `.db` used in the exercises are **not included** in this
 repository.
 
 These databases are provided by **CS50 / HarvardX** as part of the official
