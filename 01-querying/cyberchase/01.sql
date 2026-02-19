@@ -1,4 +1,4 @@
---list the titles of all episodes | in cyberchases | season 1
+--list the titles of all episodes | IN cyberchases | season 1
 
 SELECT title
 FROM episodes

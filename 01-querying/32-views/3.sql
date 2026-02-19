@@ -1,6 +1,6 @@
---> Count how many prints by Hakusai Include "Fuji" in the English title.
+--> Count how many prINts by Hakusai Include "Fuji" IN the English title.
 ---> Focused on Mt.Fuji.
----> How many did "Fuji" make it into the title?
+---> How many did "Fuji" make it INto the title?
 
 -- [ Priorite: Count, Hakusai, name "Fuji", column "English_title"]
 

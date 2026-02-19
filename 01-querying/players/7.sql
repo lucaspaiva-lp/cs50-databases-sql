@@ -1,6 +1,6 @@
---> query to count the number of players who bat (or batted) right-handed and throw (or threw) left-handed, or vice versa.
+--> query to count the number of players who bat (or batted) right-hANDed AND throw (or threw) left-hANDed, or vice versa.
 
---> keywords: Count the number, batted right-handed, threw left-handed
+--> keywords: Count the number, batted right-hANDed, threw left-hANDed
 
 SELECT count(*) 
 FROM players 

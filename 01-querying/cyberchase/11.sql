@@ -1,4 +1,4 @@
--- List the | titles | of episodes from | season 5 |, in | reverse alphabetical order|.
+-- List the | titles | of episodes FROM | season 5 |, IN | reverse alphabetical order|.
 
 SELECT title
 FROM episodes

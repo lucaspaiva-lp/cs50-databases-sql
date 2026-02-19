@@ -1,5 +1,5 @@
 -- Count the |number| of |unique| episode |titles|.
 
-SELECT count(distinct title)
+SELECT count(distINct title)
 FROM episodes;
 

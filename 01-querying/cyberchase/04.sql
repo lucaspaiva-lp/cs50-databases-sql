@@ -1,4 +1,4 @@
--- Query | to find the TITLES of EPISODES that do | not yet | have a listed topic.
+-- Query | to fINd the TITLES of EPISODES that do | not yet | have a listed topic.
 
 SELECT title
 FROM episodes

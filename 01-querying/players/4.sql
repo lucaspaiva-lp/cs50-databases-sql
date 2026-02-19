@@ -1,4 +1,4 @@
---> query to find the \ first and last names \ of players who were \ not born in the United States \. 
+--> query to fINd the \ first AND last names \ of players who were \ not born IN the United States \. 
 -- Sort the \ results alphabetically by first name \, then by last name.
 
 SELECT first_name, last_name 

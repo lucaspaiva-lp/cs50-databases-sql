@@ -1,4 +1,4 @@
---> query to return the first and last names of all right-handed batters. Sort the results alphabetically by first name, then by last name.
+--> query to return the first AND last names of all right-hANDed batters. Sort the results alphabetically by first name, then by last name.
 
 SELECT first_name, last_name 
 FROM players 

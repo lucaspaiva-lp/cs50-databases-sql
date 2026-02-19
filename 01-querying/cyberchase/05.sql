@@ -1,4 +1,4 @@
--- Find the |TITLE| of the holiday episode that aired on | December 31st, 2004
+-- FINd the |TITLE| of the holiday episode that aired on | December 31st, 2004
 
 SELECT title
 FROM episodes

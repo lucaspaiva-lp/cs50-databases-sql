@@ -1,4 +1,4 @@
---> query to find the ids of rows for which a value in the column debut is missing.
+--> query to fINd the ids of rows for which a value IN the column debut is missINg.
 
 SELECT id 
 FROM players 

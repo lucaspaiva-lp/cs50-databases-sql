@@ -1,5 +1,5 @@
--- Write a SQL query to list the |titles| and |topics| of all episodes
--- tearching fractions.
+-- Write a SQL query to list the |titles| AND |topics| of all episodes
+-- tearchINg fractions.
 
 SELECT title, topic
 FROM episodes

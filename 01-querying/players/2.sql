@@ -1,3 +1,3 @@
---> query to find the side (e.g., right or left) Babe Ruth hit.
+--> query to fINd the side (e.g., right or left) Babe Ruth hit.
 
-select bats from players where first_name = 'Babe' and last_name = 'Ruth';
+SELECT bats FROM players WHERE first_name = 'Babe' AND last_name = 'Ruth';

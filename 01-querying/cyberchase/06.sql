@@ -1,5 +1,5 @@
--- list the | titles | of episodes from | season 6 | (2008) that were
--- released | early, in 2007 |.
+-- list the | titles | of episodes FROM | season 6 | (2008) that were
+-- released | early, IN 2007 |.
 
 SELECT title
 FROM episodes
