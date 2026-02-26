@@ -7,13 +7,13 @@
     -- Note that there may be two players with the name “Ken Griffey.” This Ken Griffey was born in 1969.
     -- Your query should return a table with two columns, one for year and one for home runs.
 
-
---> TODO:Entende a informação referente ao 'home runs'; e ver a viabilidade de existe outra tabela.
-
-select year 
-from players 
-where first_name like '%Ken%' 
-    and last_name like 'Griffey%' 
-    and birth_year = '1969'
+SELECT year, HR
+FROM performances 
+WHERE player_id =
+    (SELECT id 
+    FROM players 
+    WHERE first_name = 'Ken'
+        AND last_name = 'Griffey'
+        AND birth_year = '1969'
+    )
 ORDER BY year DESC;
-

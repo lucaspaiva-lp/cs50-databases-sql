@@ -3,7 +3,7 @@
         - Your query should return a table with a single column, one for the name of the teams.
 */
 
-select *
+select teams.name
 from performances
 join players
     on performances.player_id = players.id

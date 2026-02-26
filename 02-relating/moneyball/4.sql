@@ -15,4 +15,4 @@ from players
 join salaries 
     on salaries.player_id = players.id
 where salaries.year = '2001'
-order by salaries.salary ASC;
+order by salaries.salary ASC, first_name ASC, last_name ASC, salaries.player_id ASC;
