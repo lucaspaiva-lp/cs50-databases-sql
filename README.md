@@ -14,9 +14,9 @@ strictly with the problem sets as released by CS50.
 
 **Objective:** Build fluency in reading queries, basic filtering, and thinking in sets.
 
-* [Cyberchase](/01-querying/cyberchase/)
-* [36 Views](/01-querying/32-views/)
-* [Players](/01-querying/players/)
+* [Cyberchase](/0-querying/cyberchase/)
+* [36 Views](/0-querying/32-views/)
+* [Players](/0-querying/players/)
 
 ---
 
@@ -24,9 +24,9 @@ strictly with the problem sets as released by CS50.
 
 **Objective:** Apply filtering, grouping, joins, and real-world investigation logic.
 
-* [Packages, Please](/02-relating/packages-please/)
-* [DESE](/02-relating/dese/)
-* Moneyball
+* [Packages, Please](/1-relating/packages-please/)
+* [DESE](/1-relating/dese/)
+* [Moneyball](/1-relating/moneyball/)
 
 ---
 
