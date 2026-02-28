@@ -11,9 +11,6 @@ Query to find the 10 least expensive players per hit in 2001.
     - As in 10.sql, ensure that the salary’s year and the performance’s year match.
     - You may assume, for simplicity, that a player will only have one salary and one performance in 2001.
 
-table: players, performances, salaries.
-
-
 */
 
 select players.first_name, players.last_name, salaries.salary / performances.H AS "dollars per hit"

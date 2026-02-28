@@ -4,7 +4,6 @@ Write a SQL query to find the | 2001 |  salary | of the | player|  who | hit the
 
     - Your query should return a table with one column, the salary of the player.
 
-Table: Performances, *salaries, Players
 */
 
 select max(salaries.salary)

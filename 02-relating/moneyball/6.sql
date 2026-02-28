@@ -7,8 +7,6 @@ Write a SQL query to return the top 5 teams, sorted by the | total number | of h
     - Your query should return two columns, one for the teams’ names and one for their total hits in 2001.
 */
 
-# Tirar o total'hits e bota performances.h para testa as condições. (Lembrar que já foi aprovado como está)
-
 select teams.name, SUM(performances.H) AS 'total-hits' 
 from performances 
 join teams
