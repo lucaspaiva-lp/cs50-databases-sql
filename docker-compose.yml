@@ -1,0 +1,14 @@
+services:
+  cs50-sql:
+    build: .
+    container_name: cs50_dev
+    env_file: .env
+    volumes:
+      - .:/app
+      - cs50_data:/root/
+    stdin_open: true
+    tty: true
+    network_mode: "host"
+
+volumes:
+  cs50_data:

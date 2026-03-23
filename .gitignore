@@ -1,3 +1,4 @@
 # Ignore files .db
 *.db
 venv
+.env
