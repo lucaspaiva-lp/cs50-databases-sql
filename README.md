@@ -117,7 +117,7 @@ touch .env
 Edit the `.env` file:
 
 ```
-GITHUB_USER=lucaspaiva-lp
+GITHUB_USER=your_user_here
 GITHUB_TOKEN=ghp_your_token_here
 ```
 
