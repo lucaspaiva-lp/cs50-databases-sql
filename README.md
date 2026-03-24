@@ -102,56 +102,82 @@ course databases within the authorized learning environment.
 
 ---
 
-
 ## Environment Setup & Usage (PC / Notebook)
 
-This repository leverages **Docker** and **Expect** to automate `check50` and `submit50` authentication, eliminating the need to manually enter your GitHub Token every time the container starts.
+This repository provides two ways to run the CS50 SQL tools: using **Docker** (automated) or a  **Local Python Virtual Environment** .
 
 ### 1. Initial Configuration (One-time setup)
 
-After cloning the repository, create the environment variables file:
-
-**Bash**
+Regardless of the method, create your environment variables file to store your credentials:
 
 ```
 touch .env
 ```
 
-Edit the `.env` file with your credentials:
+Edit the `.env` file:
 
 ```
-GITHUB_USER=user_name
+GITHUB_USER=lucaspaiva-lp
 GITHUB_TOKEN=ghp_your_token_here
 ```
 
-### 2. Build the Image
+---
 
-Ensure Docker is running and execute the build command. This installs all CS50 dependencies and the automation scripts:
+### 2. Option A: Using Local Python (Venv)
 
-**Bash**
+Use this method if you want to run the tools directly on your Arch Linux host:
+
+**Create and activate the virtual environment:**
+
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+
+**Install dependencies:**
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Option B: Using Docker (Automated Auth)
+
+This method leverages **Expect** to automatically inject your GitHub Token, bypassing manual login prompts.
+
+**Build the Image:**
 
 ```
 docker compose build --no-cache
 ```
 
-### 3. Running the Environment
-
-To enter the container and start working on the exercises:
-
-**Bash**
+**Run the Environment:**
 
 ```
 docker compose run --rm cs50-sql
 ```
 
-### 4. Using check50 / submit50
+---
 
-Once inside the container, use the commands normally. The internal script will detect the login prompt and automatically inject your credentials from the `.env` file:
+### 4. Running check50 / submit50
+
+Once your environment is ready (either via `.venv` or inside the Docker container), run the commands normally:
 
 **Example:**
 
 ```
 check50 cs50/problems/2024/sql/connect
+```
+
+---
+
+### SysAdmin Tip (Arch Linux Alias)
+
+To quickly jump into the Docker environment from any terminal, add this alias to your `~/.bashrc` or `~/.zshrc`:
+
+```
+alias sql='docker compose run --rm cs50-sql'
 ```
 
 ## License and Disclaimer
