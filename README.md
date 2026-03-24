@@ -10,7 +10,7 @@ strictly with the problem sets as released by CS50.
 
 ## Course Roadmap (Official Order)
 
-### Week 0 — Foundations
+### 0 — Foundations
 
 **Objective:** Build fluency in reading queries, basic filtering, and thinking in sets.
 
@@ -20,7 +20,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 1 — Querying & Aggregation
+### 1 — Querying & Aggregation
 
 **Objective:** Apply filtering, grouping, joins, and real-world investigation logic.
 
@@ -30,7 +30,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 2 — Relating Data
+### 2 — Relating Data
 
 **Objective:** Work with multi-table relationships and real datasets.
 
@@ -40,7 +40,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 3 — Data Integrity & Cleaning
+### 3 — Data Integrity & Cleaning
 
 **Objective:** Defensive querying and handling imperfect data.
 
@@ -49,7 +49,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 4 — Investigation & Analysis
+### 4 — Investigation & Analysis
 
 **Objective:** Complex joins, investigative reasoning, and storytelling with SQL.
 
@@ -59,7 +59,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 5 — Advanced Query Composition
+### 5 — Advanced Query Composition
 
 **Objective:** Views, abstractions, and reusable query logic.
 
@@ -68,7 +68,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-### Week 6 — Sentimental SQL & Final Project
+### 6 — Sentimental SQL & Final Project
 
 **Objective:** Apply SQL concepts via another language and complete a capstone.
 

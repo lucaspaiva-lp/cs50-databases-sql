@@ -44,3 +44,14 @@ CREATE TABLE connections (
     FOREIGN KEY (user_id_1) REFERENCES users(id),
     FOREIGN KEY (user_id_2) REFERENCES users(id)
 );
+
+/* Add-ons
+
+CREATE INDEX "education_user_idx" ON "education" ("user_id");
+CREATE INDEX "education_school_idx" ON "education" ("school_id");
+CREATE INDEX "employment_user_idx" ON "employment" ("user_id");
+CREATE INDEX "employment_company_idx" ON "employment" ("company_id");
+CREATE INDEX "connections_user1_idx" ON "connections" ("user_id_1");
+CREATE INDEX "connections_user2_idx" ON "connections" ("user_id_2");
+
+*/
