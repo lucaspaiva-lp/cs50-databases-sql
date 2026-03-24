@@ -34,9 +34,9 @@ strictly with the problem sets as released by CS50.
 
 **Objective:** Work with multi-table relationships and real datasets.
 
-* ATL
-* Happy to Connect
-* Union Square Donuts
+* [ATL](/2-designing/atl/)
+* [Happy to Connect](/2-designing/connect/)
+* [Union Square Donuts](/2-designing/)
 
 ---
 
@@ -94,7 +94,7 @@ The database files `.db` used in the exercises are **not included** in this
 repository.
 
 These databases are provided by **CS50 / HarvardX** as part of the official
-course materials and are excluded here for  **ethical and academic integrity
+course materials and are excluded here for **ethical and academic integrity
 reasons**.
 
 All SQL queries in this repository were written and tested against the official
