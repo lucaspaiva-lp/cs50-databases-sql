@@ -102,6 +102,58 @@ course databases within the authorized learning environment.
 
 ---
 
+
+## Environment Setup & Usage (PC / Notebook)
+
+This repository leverages **Docker** and **Expect** to automate `check50` and `submit50` authentication, eliminating the need to manually enter your GitHub Token every time the container starts.
+
+### 1. Initial Configuration (One-time setup)
+
+After cloning the repository, create the environment variables file:
+
+**Bash**
+
+```
+touch .env
+```
+
+Edit the `.env` file with your credentials:
+
+```
+GITHUB_USER=user_name
+GITHUB_TOKEN=ghp_your_token_here
+```
+
+### 2. Build the Image
+
+Ensure Docker is running and execute the build command. This installs all CS50 dependencies and the automation scripts:
+
+**Bash**
+
+```
+docker compose build --no-cache
+```
+
+### 3. Running the Environment
+
+To enter the container and start working on the exercises:
+
+**Bash**
+
+```
+docker compose run --rm cs50-sql
+```
+
+### 4. Using check50 / submit50
+
+Once inside the container, use the commands normally. The internal script will detect the login prompt and automatically inject your credentials from the `.env` file:
+
+**Example:**
+
+```
+check50 cs50/problems/2024/sql/connect
+```
+
 ## License and Disclaimer
 
 The solutions, queries, and technical results contained in this repository
