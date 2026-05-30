@@ -167,7 +167,7 @@ Once your environment is ready (either via `.venv` or inside the Docker containe
 **Example:**
 
 ```
-check50 cs50/problems/2024/sql/connect
+check50 cs50/problems/2024/sql/meteorites
 ```
 
 ---
