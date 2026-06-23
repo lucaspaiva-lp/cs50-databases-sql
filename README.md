@@ -1,3 +1,5 @@
+![1782225267755](image/README/1782225267755.png)
+
 # CS50 – Introduction to Databases with SQL
 
 This repository contains my personal solutions, notes, and experiments for
