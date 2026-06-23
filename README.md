@@ -10,7 +10,7 @@ strictly with the problem sets as released by CS50.
 
 ---
 
-## 📺 Final Project Presentation: FiveLib
+## Final Project Presentation: FiveLib
 A brief walkthrough of the relational database architecture designed for **FiveLib**, a centralized technical documentation platform.
 
 * **Watch the presentation here:** [CS50 SQL Final Project Video](https://www.youtube.com/watch?v=55skn7c5Nfc)
